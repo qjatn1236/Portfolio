@@ -1,0 +1,40 @@
+.blind {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.mainskip {
+    position: absolute;
+    left: 0;
+    top: -50px;
+    /* text-indent: -9999px;
+    font-size: 0; */
+    width: 100%;
+    z-index: 999;
+    color: #fff;
+}
+
+.mainskip li a:active,
+.mainskip li a:focus {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    text-indent: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #222;
+
+}
+
+.sp_bg01 {
+    background-image: url(../images/bg/bg01.png);
+    background-repeat: no-repeat;
+}

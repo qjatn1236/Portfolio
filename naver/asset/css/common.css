@@ -1,0 +1,82 @@
+/* 공통요소 */
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+body{
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+    min-width: 1190px;
+}
+.thumb-bd{position: relative; display: block;}
+.thumb-bd::after{
+    content: '';
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+    border: 1px solid #000;
+    opacity: 0.1;
+}
+.thumb-bd img{
+    width: 100%;
+}
+
+.header .logo a::after,
+.header .search-area .btn-search::before,
+.header .service-area .link-start::after,
+.header .service-area .link-junior::before,
+.header .service-area .link-bin::before,
+.sc-news .group-issue .link-media::after,
+.sc-news .group-title .title-link::before,
+.sc-news .group-title .title-link::after,
+.sc-news .group-title .set-area .ic-list::before,
+.sc-news .group-title .set-area .ic-tile::before,
+.sc-news .group-title .set-area .ic-set::before,
+.sc_themecast .group-title .info-area .btn-set:before,
+.sc_themecast .main-category .pm-btn-prev::before,
+.sc_themecast .btn-more-wrap .ico-more,
+.sc-login .link-login::before,
+.sc-login .sub-area .link-id::before,
+.sc-login .sub-area .link-join::before,
+.today-issue .navi .btn-prev::before,
+.today-issue .navi .btn-next::before,
+.content-top::before,
+.btn-theme,
+.notice-area .link-all::after,
+.header .gnb-item .ico_mall,
+.header .gnb-item .ico_tv,
+.header .shop-live a,
+.header .nav_more::after,
+.header .degree_box .min::after
+{
+    background-image: url(../images/sp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 457px auto;
+}
+
+.shop-wrap .shop-header .link-shop::before,
+.shop-wrap .shop-header .link-shop::after,
+.shop-wrap .shop-control .btn-prev:before,
+.shop-wrap .shop-control .btn-next:before,
+.shop-wrap .shop-page .btn-prev::before,
+.shop-wrap .shop-page .btn-next::before,
+.shop-wrap .group-plusdeal .link-logo::before,
+.shop-wrap .group-plusdeal .ico-one-plus::before,
+.shop-wrap .group-plusdeal .thumb-box+.thumb-box::before
+
+{    
+    background-image: url(../images/sp-bg-2.png);
+    background-repeat: no-repeat;
+    background-size: 107px 101px;
+}
+
+.header .ico_weather::before{    
+    background-image: url(../images/weather.png);
+    background-size: 215px 185px;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,270 @@
+{
+    "category": [
+        {
+            "link": "#",
+            "title": "뉴 트랜딩",
+            "imgSrc": "./assets/images/link-item01.jpg"
+        },
+        {
+            "link": "#",
+            "title": "남성추천",
+            "imgSrc": "./assets/images/link-item02.jpg"
+        },
+        {
+            "link": "#",
+            "title": "여성추천",
+            "imgSrc": "./assets/images/link-item03.jpg"
+        },
+        {
+            "link": "#",
+            "title": "골프",
+            "imgSrc": "./assets/images/link-item04.jpg"
+        },
+        {
+            "link": "#",
+            "title": "럭셔리 컬렉션",
+            "imgSrc": "./assets/images/link-item05.jpg"
+        },
+        {
+            "link": "#",
+            "title": "오늘의 코디",
+            "imgSrc": "./assets/images/link-item06.jpg"
+        },
+        {
+            "link": "#",
+            "title": "여행 컬렉션",
+            "imgSrc": "./assets/images/link-item07.jpg"
+        },
+        {
+            "link": "#",
+            "title": "7월 럭키드로우",
+            "imgSrc": "./assets/images/link-item08.jpg"
+        },
+        {
+            "link": "#",
+            "title": "빠른배송",
+            "imgSrc": "./assets/images/link-item09.jpg"
+        },
+        {
+            "link": "#",
+            "title": "누구나 창고보관",
+            "imgSrc": "./assets/images/link-item10.jpg"
+        }
+    ],
+    "brand": [
+        {
+            "link": "#",
+            "title": "에르메스",
+            "imgSrc": "./assets/images/link-item11.jpg"
+        },
+        {
+            "link": "#",
+            "title": "샤넬",
+            "imgSrc": "./assets/images/link-item12.jpg"
+        },
+        {
+            "link": "#",
+            "title": "루이비통",
+            "imgSrc": "./assets/images/link-item13.jpg"
+        },
+        {
+            "link": "#",
+            "title": "까르띠에",
+            "imgSrc": "./assets/images/link-item14.jpg"
+        },
+        {
+            "link": "#",
+            "title": "롤렉스",
+            "imgSrc": "./assets/images/link-item15.jpg"
+        },
+        {
+            "link": "#",
+            "title": "디올",
+            "imgSrc": "./assets/images/link-item16.jpg"
+        },
+        {
+            "link": "#",
+            "title": "우영미",
+            "imgSrc": "./assets/images/link-item17.jpg"
+        },
+        {
+            "link": "#",
+            "title": "프라다",
+            "imgSrc": "./assets/images/link-item18.jpg"
+        },
+        {
+            "link": "#",
+            "title": "발렌시아가",
+            "imgSrc": "./assets/images/link-item19.jpg"
+        },
+        {
+            "link": "#",
+            "title": "애플",
+            "imgSrc": "./assets/images/link-item20.jpg"
+        }
+    ],
+    "mostPopular": [
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/product01.webp",
+            "brand": "Nike",
+            "prdTitle": "Nike x Tom Sachs Mars Yard Shoe 2.0 Space Camp",
+            "price": 7000000,
+            "quickDelivery": false
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/product02.webp",
+            "brand": "Nike",
+            "prdTitle": "Jordan 1 Mid White Black Tie-Dye",
+            "price": 155000,
+            "quickDelivery": true
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/product03.webp",
+            "brand": "Nike",
+            "prdTitle": "Jordan 1 Mid Taxi",
+            "price": 154000,
+            "quickDelivery": true
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/product04.webp",
+            "brand": "Nike",
+            "prdTitle": "(W) Nike Dunk Low Ocean",
+            "price": 144000,
+            "quickDelivery": true
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/product05.webp",
+            "brand": "Ader Error",
+            "prdTitle": "Ader Error Twin Heart Big Logo T-Shirt Off White",
+            "price": 149000,
+            "quickDelivery": false
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/product06.webp",
+            "brand": "IAB Studio",
+            "prdTitle": "IAB Studio x Ottogi Mayonnaise 50th Anniversary Cooking Kit (Without Mini Mayonnaise)",
+            "price": 124000,
+            "quickDelivery": true
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/product07.webp",
+            "brand": "IAB Studio",
+            "prdTitle": "IAB Studio x Ottogi Mayonnaise 50th Anniversary T-Shirt Navy",
+            "price": 125000,
+            "quickDelivery": true
+        }
+    ],
+    "dropped": [
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/dropprd01.webp",
+            "brand": "Nike",
+            "prdTitle": "Nike x Martine Rose Shox MR4 Black",
+            "price": 255000,
+            "quickDelivery": false
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/dropprd02.webp",
+            "brand": "Crocs",
+            "prdTitle": "Crocs x Mastermind Classic Clog Black",
+            "price": 176000,
+            "quickDelivery": true
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/dropprd03.webp",
+            "brand": "Helinox",
+            "prdTitle": "Helinox x RVCA Chair One Muscimol",
+            "price": 165000,
+            "quickDelivery": true
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/dropprd04.webp",
+            "brand": "Nike",
+            "prdTitle": "(W) Nike Dunk Low Next Nature Barely Green and White",
+            "price": 131000,
+            "quickDelivery": true
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/dropprd05.webp",
+            "brand": "Adidas",
+            "prdTitle": "Adidas Yeezy Foam RNNR Onyx",
+            "price": 159000,
+            "quickDelivery": false
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/dropprd06.webp",
+            "brand": "Nike",
+            "prdTitle": "Nike x Off-White Air Force 1 Mid SP Black",
+            "price": 150000,
+            "quickDelivery": true
+        }
+    ],
+    "userstyle": [
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style01.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
+            "name": "@oxixzz"
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style02.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
+            "name": "@oxixzz"
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style03.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
+            "name": "@oxixzz"
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style04.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
+            "name": "@oxixzz"
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style05.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
+            "name": "@oxixzz"
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style06.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
+            "name": "@oxixzz"
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style07.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
+            "name": "@oxixzz"
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style08.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
+            "name": "@oxixzz"
+        },
+        {
+            "link": "#",
+            "imgSrc": "./assets/images/style09.jpg",
+            "profileSrc": "./assets/images/profile01.jpg",
+            "name": "@oxixzz"
+        }
+    ]
+}

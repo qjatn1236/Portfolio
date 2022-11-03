@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+@import './reset.css';
+@import './common.css';
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 10;
+    transition: .4s;
+}
+
+.header.active {
+    top: -80px;
+}
+
+.header .inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.header .logo {
+    position: absolute;
+    top: 50%;
+    left: 6vw;
+    transform: translateY(-50%);
+    background: url(../images/acg-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+}
+
+.header .logo a {
+    display: block;
+    height: 100%;
+}
+
+.header .gnb .nav {
+    display: flex;
+    height: 80px;
+    line-height: 80px;
+}
+
+.gnb .nav-list .nav-item {
+    padding: 0 26px;
+    font-size: 18px;
+}
+
+.gnb .nav-list .nav-title {
+    font-weight: 500;
+    transition: .3s;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gnb .nav-item .sub-menu {
+    padding: 16px 40px 40px;
+    white-space: nowrap;
+    background: #fff;
+    display: none;
+    position: absolute;
+    top: 79px;
+    left: 0;
+    right: 0;
+}
+
+.gnb .nav-item .sub-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.gnb .nav-item .sub-area {
+    display: inline-block;
+    width: 25%;
+    padding: 16px 8px 0;
+    vertical-align: top;
+    text-align: left;
+}
+
+.gnb .nav-item .sub-area a {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 1.428571;
+    color: #757575;
+}
+
+.gnb .nav-item .sub-area .depth-title {
+    display: block;
+    margin-bottom: 14px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #111;
+}
+
+.sub-menu>* {
+    opacity: 0;
+    transition: opacity 0.5s 0.2s;
+}
+
+.sub-menu.active>* {
+    opacity: 1;
+}
+
+.header .user-area {
+    position: absolute;
+    top: 50%;
+    right: 6vw;
+    transform: translateY(-50%);
+}
+
+.header .user-area a {
+    display: block;
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.header .user-area a:hover {
+    opacity: .5;
+}
+
+.header .user-area .user-list {
+    display: inline-block;
+}
+
+.header .user-list+.user-list::after {
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    width: 1px;
+    height: 10px;
+    background: #999;
+    position: absolute;
+    top: 15px;
+}
+
+/* 헤더부분 끝 */
+
+#footer {
+    background: #000;
+    color: #999;
+    margin-top: 100px;
+}
+
+#footer .width-wrap {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#footer .foot-banner {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding: 11px 0px 11px 0px;
+    width: 100%;
+    letter-spacing: 0px;
+    border-bottom: 1px solid #444;
+}
+
+#footer .foot-banner a {
+    margin-left: 10px;
+}
+
+#footer .foot-nav {
+    display: flex;
+    color: #fff;
+    font-size: 13px;
+    padding: 30px 0;
+}
+
+#footer .foot-nav a {
+    color: #999
+}
+
+#footer .foot-nav h3 {
+    font-size: 13px;
+    color: #fff;
+    padding-bottom: 0;
+}
+
+#footer .foot-nav li {
+    margin-top: 8px;
+    font-size: 11px;
+}
+
+#footer .info {
+    width: 25%;
+}
+
+#footer .info p {
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+#footer .info a {
+    color: #fff;
+}
+
+#footer .center {
+    width: 25%;
+}
+
+#footer .about {
+    width: 25%;
+}
+
+#footer .social {
+    width: 25%;
+}
+
+#footer .foot-copy {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    font-size: 10px;
+    padding: 15px 32px;
+}
+
+#footer .copy-left a {
+    margin-right: 15px;
+    color: #fff;
+}
+
+#footer .copy-right a {
+    margin-left: 16px;
+}
+
+#footer .foot-company {
+    padding: 16px 0 25px;
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+#footer .foot-company a {
+    color: #fff;
+}
+
+#footer .company-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .company-left {
+    width: 50%;
+}
+
+#footer .divider {
+    position: relative;
+    margin-left: 3px;
+    padding-left: 6px;
+}
+
+#footer .company-left .divider::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 1px;
+    height: 10px;
+    background: #999;
+}
+
+#footer .company-right {
+    width: calc(50% - 20px)
+}
+
+#footer .insurance-info {
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 20px;
+}
+
+#footer .ini-icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
