@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 500;
+}
+
+.br_small {
+    display: none;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000;
+    font-family: 'Pretendard', serif;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.loading_page {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #000;
+    z-index: 10;
+}
+
+.loading_page strong {
+    color: #fff;
+    font-size: 45px;
+    -webkit-transition: -webkit-transform 1.4s;
+    transition: -webkit-transform 1.4s;
+    transition: transform 1.4s;
+    transition: transform 1.4s, -webkit-transform 1.4s;
+}
+
+.on {
+    color: #fff;
+}
+
+.git_link {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    background: transparent;
+    text-align: center;
+    transition: .3s;
+}
+
+.intro {
+    background-color: #f0f0f0;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.intro h1 {
+    font-size: 120px;
+    color: #249a24;
+}
+
+.main {
+    background-color: #000;
+    z-index: 4;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 300px 100px 100px;
+}
+
+.project_title {
+    display: block;
+    font-size: 70px;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-bottom: 120px;
+    letter-spacing: 6px;
+}
+
+.item_box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 250px;
+}
+
+.content {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    transition: .5s;
+}
+
+.img_box {
+    width: 100%;
+    height: 550px;
+}
+
+.link_box {}
+
+.content_title {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.Reaction {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.link_box a {
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #f0f0f0;
+    transition: .3s;
+    display: inline-block;
+}
+
+.link_box a:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+
+@media (max-width: 1360px) {
+    .main {
+        padding: 100px 50px 100px;
+    }
+
+    .inner {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+        margin-right: 5%;
+    }
+
+    .content:nth-child(2n) {
+        margin-right: 0;
+        margin-left: 5%;
+    }
+
+    .link_box a {
+        display: block;
+    }
+
+    .link_box a:last-child {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 899px) {
+    .main {
+        padding: 50px 30px 100px;
+    }
+
+    .project_title {
+        font-size: 50px;
+        margin-bottom: 60px;
+    }
+
+    .item_box {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .item_box:nth-child(2n) {
+        flex-direction: column-reverse;
+    }
+
+    .content {
+        margin-right: 0;
+    }
+
+    .content:nth-child(2n) {
+        margin-left: 0;
+    }
+
+    .link_box {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .link_box a:last-child {
+        margin-top: 2%;
+    }
+}
+
+@media (max-width: 767px) {
+    .br_small {
+        display: block;
+    }
+
+    .loading_page {
+        text-align: center;
+    }
+
+    .intro h1 {
+        font-size: 80px;
+        text-align: center;
+    }
+
+    .project_title {
+        text-align: center;
+        margin-left: 0;
+        font-size: 40px;
+    }
+
+    .img_box {
+        height: 250px;
+    }
+}
