@@ -1,73 +1,100 @@
 <!DOCTYPE html>
 <html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>KREAM</title>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+		/>
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="icon" href="./assets/images/favicon.ico" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KREAM</title>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="icon" href="./assets/images/favicon.ico">
-</head>
+	<body>
+		<header class="header">
+			< class="header_inner">
+			<h1 class="logo">
+				<a href="#"><img src="./assets/images/logo.png" alt="크림 로고" /></a>
+			</h1>
+			<div class="column_right">
+				<a href="#" class="column_btn btn_search"
+					><img src="./assets/images/point.png" alt="상품검색"
+				/></a>
+				<a href="#" class="column_btn btn_menu"
+					><img src="./assets/images/menu.png" alt="네이게이션 열기 버튼"
+				/></a>
+			</div>
 
-<body>
+			<div class="navi">
+				<div class="navi_inner">
+					<a href="#" class="btn_close"
+						><img
+							src="./assets/images/close-btn.png"
+							alt="네비게이션 닫기 버튼"
+					/></a>
+					<div class="group_navi">
+						<ul class="navi_list">
+							<li class="navi_item"><a href="#" class="link_navi">STYLE</a></li>
+							<li class="navi_item"><a href="#" class="link_navi">SHOP</a></li>
+							<li class="navi_item">
+								<a href="#" class="link_navi">자주 묻는 질문</a>
+							</li>
+							<li class="navi_item">
+								<a href="#" class="link_navi">공지사항</a>
+							</li>
+							<li class="navi_item">
+								<a href="#" class="link_navi">로그인</a>
+							</li>
+						</ul>
+						<div class="down_area">
+							<p class="download_msg">KREAM 앱 설치 후 사용해 보세요!</p>
+							<a href="#" class="btn_download">앱 다운로드</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 
-    <header class="header">
-        <div class="header_inner">
-            <h1 class="logo"><a href="#"><img src="./assets/images/logo.png" alt="크림 로고"></a></h1>
-            <div class="column_right">
-                <a href="#" class="column_btn btn_search"><img src="./assets/images/point.png" alt="상품검색"></a>
-                <a href="#" class="column_btn btn_menu"><img src="./assets/images/menu.png" alt="네이게이션 열기 버튼"></a>
-            </div>
+		<main class="container">
+			<section class="sc_event">
+				<h2 class="blind">이벤트</h2>
+				<div class="event_slide">
+					<div class="event_item">
+						<img
+							src="./assets/images/main-slide01.jpg"
+							alt="이벤트 슬라이드 이미지"
+						/>
+					</div>
+					<div class="event_item">
+						<img
+							src="./assets/images/main-slide02.jpg"
+							alt="이벤트 슬라이드 이미지"
+						/>
+					</div>
+					<div class="event_item">
+						<img
+							src="./assets/images/main-slide03.jpg"
+							alt="이벤트 슬라이드 이미지"
+						/>
+					</div>
+					<div class="event_item">
+						<img
+							src="./assets/images/main-slide04.jpg"
+							alt="이벤트 슬라이드 이미지"
+						/>
+					</div>
+				</div>
+			</section>
+			<!-- 메인 슬라이드 -->
 
-            <div class="navi">
-                <div class="navi_inner">
-                    <a href="#" class="btn_close"><img src="./assets/images/close-btn.png" alt="네비게이션 닫기 버튼"></a>
-                    <div class="group_navi">
-                        <!-- <nav class="navi_area"></nav> -->
-                        <ul class="navi_list">
-                            <li class="navi_item"><a href="#" class="link_navi">STYLE</a></li>
-                            <li class="navi_item"><a href="#" class="link_navi">SHOP</a></li>
-                            <li class="navi_item"><a href="#" class="link_navi">자주 묻는 질문</a></li>
-                            <li class="navi_item"><a href="#" class="link_navi">공지사항</a></li>
-                            <li class="navi_item"><a href="#" class="link_navi">로그인</a></li>
-                        </ul>
-                        <div class="down_area">
-                            <p class="download_msg">KREAM 앱 설치 후 사용해 보세요!</p>
-                            <a href="#" class="btn_download">앱 다운로드</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-    </header>
-
-    <main class="container">
-
-        <section class="sc_event">
-            <h2 class="blind">이벤트</h2>
-            <div class="event_slide">
-                <div class="event_item">
-                    <img src="./assets/images/main-slide01.jpg" alt="이벤트 슬라이드 이미지">
-                </div>
-                <div class="event_item">
-                    <img src="./assets/images/main-slide02.jpg" alt="이벤트 슬라이드 이미지">
-                </div>
-                <div class="event_item">
-                    <img src="./assets/images/main-slide03.jpg" alt="이벤트 슬라이드 이미지">
-                </div>
-                <div class="event_item">
-                    <img src="./assets/images/main-slide04.jpg" alt="이벤트 슬라이드 이미지">
-                </div>
-            </div>
-        </section>
-        <!-- 메인 슬라이드 -->
-
-        <section class="sc_category">
-            <h2 class="blind">카테고리 바로가기</h2>
-            <ul class="category_list shortcut" id="categoryList">
-                <!-- <li class="link_item">
+			<section class="sc_category">
+				<h2 class="blind">카테고리 바로가기</h2>
+				<ul class="category_list shortcut" id="categoryList">
+					<!-- <li class="link_item">
                     <a href="#">
                         <div class="img_box">
                             <img src="./assets/images/link-item01.jpg" alt="링크 뉴트랜딩">
@@ -75,19 +102,19 @@
                         <p class="text">뉴 트랜딩</p>
                     </a>
                 </li> -->
-            </ul>
-        </section>
+				</ul>
+			</section>
 
-        <section class="sc_product">
-            <h3 class="blind">제품</h3>
-            <div class="group_title">
-                <h2 class="title">Most Popular</h2>
-                <p class="sub_title">인기 상품</p>
-            </div>
+			<section class="sc_product">
+				<h3 class="blind">제품</h3>
+				<div class="group_title">
+					<h2 class="title">Most Popular</h2>
+					<p class="sub_title">인기 상품</p>
+				</div>
 
-            <div class="product_wrap">
-                <ul class="product_list" id="PopularList">
-                    <!-- <li class="product_item">
+				<div class="product_wrap">
+					<ul class="product_list" id="PopularList">
+						<!-- <li class="product_item">
                         <a href="" class="product">
                             <div class="img_box">
                                 <img src="./assets/images/product01.png" alt="나이키 x 톰 삭스 마스야드 슈 2.0 스페이스 캠프">
@@ -112,14 +139,14 @@
                             </div>
                         </a>
                     </li> -->
-                </ul>
-            </div>
-        </section>
+					</ul>
+				</div>
+			</section>
 
-        <section class="sc_brand">
-            <h2 class="blind">브랜드 바로가기</h2>
-            <ul class="brand_list shortcut" id="brandList">
-                <!-- <li>
+			<section class="sc_brand">
+				<h2 class="blind">브랜드 바로가기</h2>
+				<ul class="brand_list shortcut" id="brandList">
+					<!-- <li>
                     <a href="#">
                         <div class="img_box">
                             <img src="./assets/images/link-item11.jpg" alt="링크 뉴트랜딩">
@@ -127,27 +154,27 @@
                         <p class="text">뉴 트랜딩</p>
                     </a>
                 </li> -->
-            </ul>
-        </section>
+				</ul>
+			</section>
 
-        <!-- 광고 -->
-        <div class="banner">
-            <a href="#"><img src="./assets/images/banner01.jpg" alt="배너 이미지"></a>
-        </div>
-        <!-- 광고 -->
+			<!-- 광고 -->
+			<div class="banner">
+				<a href="#"
+					><img src="./assets/images/banner01.jpg" alt="배너 이미지"
+				/></a>
+			</div>
+			<!-- 광고 -->
 
-        <section class="sc_product" id="dropped">
-            <h2 class="blind">제품</h2>
-            <div class="group_title">
-                <h2 class="title">Just Dropped</h2>
-                <p class="sub_title">발매 상품</p>
-            </div>
+			<section class="sc_product" id="dropped">
+				<h2 class="blind">제품</h2>
+				<div class="group_title">
+					<h2 class="title">Just Dropped</h2>
+					<p class="sub_title">발매 상품</p>
+				</div>
 
-            <div class="product_wrap">
-
-                <ul class="product_list" id="droppedList">
-
-                    <!-- <li class="product_item">
+				<div class="product_wrap">
+					<ul class="product_list" id="droppedList">
+						<!-- <li class="product_item">
                         <a href="" class="product">
                             <div class="img_box">
                                 <img src="./assets/images/product01.webp" alt="나이키 x 톰 삭스 마스야드 슈 2.0 스페이스 캠프">
@@ -172,25 +199,25 @@
                             </div>
                         </a>
                     </li> -->
+					</ul>
+				</div>
+			</section>
 
-                </ul>
-            </div>
+			<!-- 광고 -->
+			<div class="banner">
+				<a href="#"
+					><img src="./assets/images/banner02.jpg" alt="배너 이미지"
+				/></a>
+			</div>
+			<!-- 광고 -->
 
-        </section>
-
-        <!-- 광고 -->
-        <div class="banner">
-            <a href="#"><img src="./assets/images/banner02.jpg" alt="배너 이미지"></a>
-        </div>
-        <!-- 광고 -->
-
-        <section class="sc_hotuser">
-            <h3 class="blind">sns 인기유저</h3>
-            <div class="group_title">
-                <h2>오늘의 인기유저</h2>
-            </div>
-            <ul class="style_list" id="styleList">
-                <!-- <li class="style_item">
+			<section class="sc_hotuser">
+				<h3 class="blind">sns 인기유저</h3>
+				<div class="group_title">
+					<h2>오늘의 인기유저</h2>
+				</div>
+				<ul class="style_list" id="styleList">
+					<!-- <li class="style_item">
                     <a href="#" class="link_item">
                         <img src="./assets/images/style01.jpg" alt="유저 스타일 이미지" class="item_img">
                         <div class="profile_box">
@@ -199,129 +226,145 @@
                         <p class="username">@oxixzz</p>
                     </a>
                 </li> -->
-            </ul>
-        </section>
+				</ul>
+			</section>
 
-        <section class="sc_guide guide_top">
-            <a href="#" class="link_guide">
-                <div class="info_box">
-                    <strong class="sub_title">SERVICE GUIDE</strong>
-                    <p class="title">KREAM은
-                        처음이지?<br>서비스 소개를 확인해보세요.
-                    </p>
-                    <span class="txt">서비스 안내</span>
-                </div>
-            </a>
-        </section>
+			<section class="sc_guide guide_top">
+				<a href="#" class="link_guide">
+					<div class="info_box">
+						<strong class="sub_title">SERVICE GUIDE</strong>
+						<p class="title">
+							KREAM은 처음이지?<br />서비스 소개를 확인해보세요.
+						</p>
+						<span class="txt">서비스 안내</span>
+					</div>
+				</a>
+			</section>
 
-        <section class="sc_guide guide_bot">
-            <a href="#" class="link_guide">
-                <div class="info_box">
-                    <strong class="sub_title">DOWNLOAD THE APP</strong>
-                    <p class="title">KREAM 앱을 설치하여 <br>
-                        한정판 스니커즈를 FLEX 하세요!</p>
-                    <span class="btn_down">앱 설치하기</span>
-                </div>
-            </a>
-        </section>
+			<section class="sc_guide guide_bot">
+				<a href="#" class="link_guide">
+					<div class="info_box">
+						<strong class="sub_title">DOWNLOAD THE APP</strong>
+						<p class="title">
+							KREAM 앱을 설치하여 <br />
+							한정판 스니커즈를 FLEX 하세요!
+						</p>
+						<span class="btn_down">앱 설치하기</span>
+					</div>
+				</a>
+			</section>
+		</main>
 
-    </main>
+		<footer id="footer">
+			<div class="group_service">
+				<div class="customer_wrap">
+					<strong>고객센터 1588-7813</strong>
+					<div class="customer_time">
+						<p>운영시간 평일 11:00 - 18:00 (토 ∙ 일, 공휴일 휴무)</p>
+						<p>점심시간 평일 13:00 ~ 14:00</p>
+					</div>
+					<p class="customer_noti">1:1 문의하기는 앱에서만 가능합니다.</p>
+					<span class="btn_customer">
+						<a href="#">자주 묻는 질문</a>
+					</span>
+				</div>
+				<div class="footmenu_wrap">
+					<div class="menu_box">
+						<h3 class="title">이용안내</h3>
+						<a href="#">검수기준</a>
+						<a href="#">이용정책</a>
+						<a href="#">패널티 정책</a>
+						<a href="#">커뮤니티 가이드라인</a>
+					</div>
+					<div class="menu_box">
+						<h3 class="title">고객지원</h3>
+						<a href="#">공지사항</a>
+						<a href="#">서비스 소개</a>
+						<a href="#">쇼룸 안내</a>
+						<a href="#">판매자 방문접수</a>
+					</div>
+				</div>
+			</div>
+			<div class="group_corp">
+				<h3 class="blind">크림 정책 및 약관</h3>
+				<ul class="corp_list">
+					<li class="corp_item"><a href="#" class="link_corp">회사소개</a></li>
+					<li class="corp_item"><a href="#" class="link_corp">인재채용</a></li>
+					<li class="corp_item"><a href="#" class="link_corp">이용약관</a></li>
+					<li class="corp_item">
+						<a href="#" class="link_corp"><strong>개인정보처리방침</strong></a>
+					</li>
+				</ul>
+			</div>
+			<div class="group_sns">
+				<div class="sns_area">
+					<a href="#" class="link_insta"
+						><img src="./assets/images/insta.png" alt="인스타그램"
+					/></a>
+					<a href="#" class="link_insta"
+						><img src="./assets/images/insta.png" alt="인스타그램"
+					/></a>
+					<a href="#" class="link_insta"
+						><img src="./assets/images/insta.png" alt="인스타그램"
+					/></a>
+				</div>
+				<button class="business_btn">
+					사업자 정보<img
+						src="./assets/images/drop-down.png"
+						alt="사업자 정보 보기 버튼"
+						class="business_drop"
+					/>
+				</button>
+			</div>
 
-    <footer id="footer">
-        <div class="group_service">
-            <div class="customer_wrap">
-                <strong>고객센터 1588-7813</strong>
-                <div class="customer_time">
-                    <p>운영시간 평일 11:00 - 18:00 (토 ∙ 일, 공휴일 휴무)</p>
-                    <p>점심시간 평일 13:00 ~ 14:00</p>
-                </div>
-                <p class="customer_noti">1:1 문의하기는 앱에서만 가능합니다.</p>
-                <span class="btn_customer">
-                    <a href="#">자주 묻는 질문</a>
-                </span>
-            </div>
-            <div class="footmenu_wrap">
-                <div class="menu_box">
-                    <h3 class="title">이용안내</h3>
-                    <a href="#">검수기준</a>
-                    <a href="#">이용정책</a>
-                    <a href="#">패널티 정책</a>
-                    <a href="#">커뮤니티 가이드라인</a>
-                </div>
-                <div class="menu_box">
-                    <h3 class="title">고객지원</h3>
-                    <a href="#">공지사항</a>
-                    <a href="#">서비스 소개</a>
-                    <a href="#">쇼룸 안내</a>
-                    <a href="#">판매자 방문접수</a>
-                </div>
-            </div>
-        </div>
-        <div class="group_corp">
-            <h3 class="blind">크림 정책 및 약관</h3>
-            <ul class="corp_list">
-                <li class="corp_item"><a href="#" class="link_corp">회사소개</a></li>
-                <li class="corp_item"><a href="#" class="link_corp">인재채용</a></li>
-                <li class="corp_item"><a href="#" class="link_corp">이용약관</a></li>
-                <li class="corp_item"><a href="#" class="link_corp"><strong>개인정보처리방침</strong></a></li>
-            </ul>
-        </div>
-        <div class="group_sns">
-            <div class="sns_area">
-                <a href="#" class="link_insta"><img src="./assets/images/insta.png" alt="인스타그램"></a>
-                <a href="#" class="link_insta"><img src="./assets/images/insta.png" alt="인스타그램"></a>
-                <a href="#" class="link_insta"><img src="./assets/images/insta.png" alt="인스타그램"></a>
-            </div>
-            <button class="business_btn">
-                사업자 정보<img src="./assets/images/drop-down.png" alt="사업자 정보 보기 버튼" class="business_drop">
-            </button>
-        </div>
+			<div class="group_business">
+				<div class="business_info">
+					<dl>
+						<dt class="title">크림 주식회사 · 대표</dt>
+						<dd class="sub">김창욱</dd>
+					</dl>
+					<dl>
+						<dt class="title">사업자등록번호:</dt>
+						<dd class="sub">570-88-01618</dd>
+						<dd class="sub">사업자정보확인</dd>
+					</dl>
+					<dl>
+						<dt class="title">통신판매업:</dt>
+						<dd class="sub">제 2021-성남분당C-0093호</dd>
+					</dl>
+				</div>
+				<div class="business_info">
+					<dl>
+						<dt class="title">사업장소재지:</dt>
+						<dd class="sub">경기도 성남시 분당구 분당내곡로 117, 8층</dd>
+					</dl>
+					<dl>
+						<dt class="title">개인정보관리책임자:</dt>
+						<dd class="sub">김미진</dd>
+					</dl>
+					<dl>
+						<dt class="title">호스팅서비스:</dt>
+						<dd class="sub">네이버 클라우드 (주)</dd>
+					</dl>
+				</div>
+			</div>
 
-        <div class="group_business">
-            <div class="business_info">
-                <dl>
-                    <dt class="title">크림 주식회사 · 대표</dt>
-                    <dd class="sub">김창욱</dd>
-                </dl>
-                <dl>
-                    <dt class="title">사업자등록번호:</dt>
-                    <dd class="sub">570-88-01618</dd>
-                    <dd class="sub">사업자정보확인</dd>
-                </dl>
-                <dl>
-                    <dt class="title">통신판매업:</dt>
-                    <dd class="sub">제 2021-성남분당C-0093호</dd>
-                </dl>
-            </div>
-            <div class="business_info">
-                <dl>
-                    <dt class="title">사업장소재지:</dt>
-                    <dd class="sub">경기도 성남시 분당구 분당내곡로 117, 8층</dd>
-                </dl>
-                <dl>
-                    <dt class="title">개인정보관리책임자:</dt>
-                    <dd class="sub">김미진</dd>
-                </dl>
-                <dl>
-                    <dt class="title">호스팅서비스:</dt>
-                    <dd class="sub">네이버 클라우드 (주)</dd>
-                </dl>
-            </div>
-        </div>
+			<div class="group_notice">
+				<p class="notice">
+					크림(주)는 통신판매 중개자로서 통신판매의 당사자가 아니므로 개별
+					판매자가 등록한 상품정보에 대해서 책임을 지지 않습니다. 단,
+					거래과정에서 검수하고 보증하는 내용에 대한 책임은 당사에 있습니다.
+				</p>
+				<p class="copyright">© KREAM Corp.</p>
+			</div>
+		</footer>
 
-        <div class="group_notice">
-            <p class="notice">
-                크림(주)는 통신판매 중개자로서 통신판매의 당사자가 아니므로 개별 판매자가 등록한 상품정보에 대해서 책임을 지지 않습니다. 단, 거래과정에서 검수하고 보증하는 내용에 대한 책임은 당사에
-                있습니다.
-            </p>
-            <p class="copyright">© KREAM Corp.</p>
-        </div>
-    </footer>
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<script
+			type="text/javascript"
+			src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+		></script>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-    <script src="./assets/js/main.js"></script>
-</body>
-
+		<script src="./assets/js/main.js"></script>
+	</body>
 </html>
